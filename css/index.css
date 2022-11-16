@@ -78,7 +78,6 @@ main {
 }
 .texto {
   width: 50px;
-  background-color: #1b7227d1;
   opacity: 0.5;
   color: rgb(255, 255, 255);
   font-size: large;
@@ -117,10 +116,7 @@ div {
   justify-content: space-evenly;
   height: 757px;
 }
-.img3:hover {
-  opacity: 1;
-  transform: scale(1.2, 1.2);
-}
+
 .img2 {
   width: 250px;
   align-items: center;
@@ -132,11 +128,6 @@ div {
   height: 757px;
 }
 
-.video {
-  padding-bottom: 0%;
-  padding-top: 370px;
-  margin: 30px;
-}
 .img3 {
   opacity: 0.5;
   width: 500px;
@@ -147,6 +138,16 @@ div {
   flex-wrap: wrap;
   justify-content: space-evenly;
   transition: all 1.2s ease;
+}
+.img3:hover {
+  opacity: 1;
+  transform: scale(1.2, 1.2);
+}
+
+.video {
+  padding-bottom: 0%;
+  padding-top: 370px;
+  margin: 30px;
 }
 .formulario {
   font-family: "Bebas Neue", cursive;
