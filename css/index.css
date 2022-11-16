@@ -88,7 +88,6 @@ main {
 }
 main section {
   padding: 0.5rem;
-
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -120,6 +119,7 @@ div {
 }
 .img3:hover {
   opacity: 1;
+  transform: scale(1.2, 1.2);
 }
 .img2 {
   width: 250px;
@@ -146,6 +146,7 @@ div {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  transition: all 1.2s ease;
 }
 .formulario {
   font-family: "Bebas Neue", cursive;
