@@ -72,15 +72,7 @@ main {
   align-items: center;
   height: 100%;
 }
-.texto {
-  width: 50px;
-  opacity: 0.5;
-  color: rgb(255, 255, 255);
-  font-size: large;
-  font-family: "Bebas Neue", cursive;
-  padding: 20px;
-  margin: 10px;
-}
+
 main section {
   padding: 0.5rem;
   display: flex;
